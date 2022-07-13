@@ -2,12 +2,13 @@
   "name": "event-platform",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gustavorfernandes.github.io/ignite-lab",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "codegen": "graphql-codegen"
+    "codegen": "graphql-codegen",
+    "predeploy": "yarn build",
+    "deploy": "ghpages -d build"
   },
   "dependencies": {
     "@apollo/client": "^3.6.8",
