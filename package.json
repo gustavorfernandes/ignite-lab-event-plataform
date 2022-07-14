@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "codegen": "graphql-codegen",
-    "predeploy": "yarn build",
-    "deploy": "ghpages -d build"
+    "build": "tsc -p . && vite build",
+    "preview": "vite preview --port 8080",
+    "codegen": "graphql-codegen"
   },
   "dependencies": {
     "@apollo/client": "^3.6.8",
@@ -26,7 +24,8 @@
     "phosphor-react": "^1.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "vercel": "^27.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
