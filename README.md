@@ -1,3 +1,3 @@
 ## Project preview
 
-https://ignite-lab-gustavorfernandes.vercel.app
+https://gustavorfernandes.github.io/faq-accordion-card
