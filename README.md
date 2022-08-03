@@ -1,3 +1,3 @@
 ## Project preview
 
-ignite-lab-gustavorfernandes.vercel.app/
+ignite-lab-gustavorfernandes.vercel.app
